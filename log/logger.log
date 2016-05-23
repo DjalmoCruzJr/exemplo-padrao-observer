@@ -1,0 +1,83 @@
+23-05-2016 13:42:10,780; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:42:10,787; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:42:10,788; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Notifying observers about the occurrence of new event: 
+23-05-2016 13:42:10,790; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: 
+23-05-2016 13:42:10,791; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: 
+23-05-2016 13:44:25,463; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:44:25,470; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:44:25,471; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Notifying observers about the occurrence of new event: 
+23-05-2016 13:44:25,473; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:44:25,475; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:45:13,104; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:45:13,112; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:45:13,114; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Notifying observers about the occurrence of new event: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:45:13,117; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:45:13,118; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:11,278; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:47:11,285; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:47:11,286; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Notifying observers about the occurrence of new event: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:11,289; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred (class br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver): br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:11,290; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred (class br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver): br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:39,942; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:47:39,949; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Registering new observer : br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]
+23-05-2016 13:47:39,950; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observables.MyEventObservable;  - Notifying observers about the occurrence of new event: br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:39,953; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred (br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@50040f0c[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]): br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]
+23-05-2016 13:47:39,954; [main]; INFO ; br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver;  - New event occurred (br.facape.sistemas.distribuidos.exemplo.observer.observers.MyEventObserver@37a71e93[
+  LOGGER=org.apache.log4j.Logger@4783da3f
+  event=<null>
+]): br.facape.sistemas.distribuidos.exemplo.observer.events.MyEvent@7e6cbb7a[
+  info=New info
+]

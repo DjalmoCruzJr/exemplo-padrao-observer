@@ -6,11 +6,11 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import br.facape.sistemas.distribuidos.exemplo.observer.events.BaseEvent;
+import br.facape.sistemas.distribuidos.exemplo.observer.events.GenericEvent;
 import br.facape.sistemas.distribuidos.exemplo.observer.interfaces.IObservable;
 import br.facape.sistemas.distribuidos.exemplo.observer.interfaces.IObserver;
 
-public class BaseObservable<T extends Serializable, E extends BaseEvent<T>> implements IObservable<T, E> {
+public class GenericObservable<T extends Serializable, E extends GenericEvent<T>> implements IObservable<T, E> {
 
 	private static final long serialVersionUID = -5388368083930262680L;
 
@@ -19,7 +19,7 @@ public class BaseObservable<T extends Serializable, E extends BaseEvent<T>> impl
 	private List<IObserver<T, E>> observers;
 	private E event;
 	
-	public BaseObservable() {
+	public GenericObservable() {
 		this.LOGGER = Logger.getLogger(getClass());
 		this.observers = new ArrayList<>();
 		this.event = null;

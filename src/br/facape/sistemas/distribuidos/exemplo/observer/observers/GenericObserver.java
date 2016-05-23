@@ -6,10 +6,10 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.apache.log4j.Logger;
 
-import br.facape.sistemas.distribuidos.exemplo.observer.events.BaseEvent;
+import br.facape.sistemas.distribuidos.exemplo.observer.events.GenericEvent;
 import br.facape.sistemas.distribuidos.exemplo.observer.interfaces.IObserver;
 
-public abstract class BaseObserver<T extends Serializable, E extends BaseEvent<T>> implements IObserver<T, E> {
+public abstract class GenericObserver<T extends Serializable, E extends GenericEvent<T>> implements IObserver<T, E> {
 
 	private static final long serialVersionUID = 8500199288832521094L;
 	
@@ -17,7 +17,7 @@ public abstract class BaseObserver<T extends Serializable, E extends BaseEvent<T
 	
 	protected E event;
 	
-	public BaseObserver() {
+	public GenericObserver() {
 		this.LOGGER = Logger.getLogger(getClass());
 	}
 

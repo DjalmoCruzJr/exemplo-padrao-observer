@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 import br.facape.sistemas.distribuidos.exemplo.observer.interfaces.IEvent;
 
-public abstract class BaseEvent<T extends Serializable> implements IEvent<T> {
+public abstract class GenericEvent<T extends Serializable> implements IEvent<T> {
 
 	private static final long serialVersionUID = -5878762195964734873L;
 	
